@@ -204,6 +204,14 @@ header ul li a.active
     }
 }
 
+@media (min-width: 993px) and (max-width: 1070px)
+{
+    .imgBX img
+    {
+        max-width: 325px!important;
+    }
+}
+
 @media (max-width: 992px)
 {
     section
@@ -254,7 +262,7 @@ header ul li a.active
         display: inline-block;
     }
 
-    .imgBx
+    .imgBX
     {
         margin-bottom: 50px;
     }
@@ -315,17 +323,12 @@ header ul li a.active
         font-size: 1em;
         color: #8a2435;
     }
-
-    .imgBx
-    {
-        max-width: 300px;
-    }
 }
 
 @media (max-width: 400px)
 {
-    .imgBx
+    .imgBX img
     {
-        max-width: 250px;
+        max-width: 275px;
     }
 }
